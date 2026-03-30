@@ -67,13 +67,13 @@ Email claims to provide a SWIFT payment receipt with a file attachment. Suspicio
 ![Email Info](Analysis/screenshots/Suspicious_Email.png)
 
 ### Email Headers Analysis
-![Email Headers](screenshots/email_header.png)
+![Email Headers](Analysis/screenshots/email_header.png)
 
 ### VirusTotal Results
-![VirusTotal Scan](screenshots/VirusTotal_Analysis.png)
+![VirusTotal Scan](Analysis/screenshots/VirusTotal_Analysis.png)
 
 ### WHOIS Lookup
-![WHOIS Information](screenshots/WHOIS_Lookup.png)
+![WHOIS Information](Analysis/screenshots/WHOIS_Lookup.png)
 
 
 
