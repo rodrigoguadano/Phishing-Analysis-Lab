@@ -61,9 +61,19 @@ Email claims to provide a SWIFT payment receipt with a file attachment. Suspicio
 ---
 
 ## Evidence / Screenshots
-- Header screenshot: [Insert screenshot]  
-- VirusTotal / URL scan screenshot: [Insert screenshot]  
-- Attachment sandbox screenshot: [Insert screenshot]  
+### Email Details
+![Email Info](screenshots/email_header.png)
+
+### Email Headers Analysis
+![Email Headers](screenshots/email_header.png)
+
+### VirusTotal Results
+![VirusTotal Scan](screenshots/VirusTotal_Analysis.png)
+
+### WHOIS Lookup
+![WHOIS Information](screenshots/WHOIS_Lookup.png)
+
+
 
 ---
 
@@ -79,7 +89,7 @@ Email claims to provide a SWIFT payment receipt with a file attachment. Suspicio
 
 ## Overall Analysis
 - Email originates from an IP not authorized by the sending domain  
-- DMARC policy missing → lack of enforcement increases phishing risk  
+- DMARC policy missing, lack of enforcement increases phishing risk  
 - Attachment is a CAB file disguised as a payment receipt  
 - No immediate malware detection via VirusTotal, but classic phishing indicators present  
 - Domain appears legitimate by age but sending pattern is suspicious  
