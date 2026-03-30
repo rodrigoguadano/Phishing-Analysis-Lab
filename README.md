@@ -64,7 +64,7 @@ Email claims to provide a SWIFT payment receipt with a file attachment. Suspicio
 
 ## Evidence / Screenshots
 ### Email Details
-![Email Info](screenshots/Suspicious_Email.png)
+![Email Info](Analysis/screenshots/Suspicious_Email.png)
 
 ### Email Headers Analysis
 ![Email Headers](screenshots/email_header.png)
