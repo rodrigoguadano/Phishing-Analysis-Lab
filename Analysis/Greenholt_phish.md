@@ -43,8 +43,8 @@ Email claims to provide a SWIFT payment receipt with a file attachment. Suspicio
 ## Attachment Analysis
 - **Filename / Type:** SWT_#09674321____PDF__.CAB
 - **Size:** 400.26 KB
-- **Observations:** CAB archive masquerading as a payment receipt; potential for malware delivery  
-- **Potential Risk:** Likely attempts to drop malicious files on victim system  - **Filename / Type:** SWT_#09674321____PDF__.CAB
+- **Observations:** CAB archive masquerading as a payment receipt; inside, the actual file is a RAR archive, which may contain executables or macros. Typical phishing/malware delivery technique.
+- **Potential Risk:** Likely attempts to drop malicious files on victim system  
 
 
 
@@ -78,9 +78,9 @@ Email claims to provide a SWIFT payment receipt with a file attachment. Suspicio
 ---
 
 ## Overall Analysis
-- Email originates from an IP not authorized by the sending domain → SPF fail  
+- Email originates from an IP not authorized by the sending domain  
 - DMARC policy missing → lack of enforcement increases phishing risk  
-- Attachment is a CAB file disguised as a payment receipt → high-risk  
+- Attachment is a CAB file disguised as a payment receipt  
 - No immediate malware detection via VirusTotal, but classic phishing indicators present  
 - Domain appears legitimate by age but sending pattern is suspicious  
 
