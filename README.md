@@ -2,6 +2,12 @@
 SOC Level 1 / Phishing Analysis Lab (TryHackMe)
 # Phishing Analysis: The Greenholt Phish
 
+## 🛠️ Tools Used
+
+- VirusTotal – URL, domain, and file reputation analysis
+- WHOIS Lookup – Domain registration and age analysis
+- MXToolbox – DNS lookups and additional header validation
+
 ## Email Summary
 - **From:** "Mr. James Jackson" <info@mutawamarine.com>  
 - **To:** webmaster@redacted.org  
