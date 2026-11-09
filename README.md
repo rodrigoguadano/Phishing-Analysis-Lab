@@ -6,7 +6,6 @@ SOC Level 1 / Phishing Analysis Lab (TryHackMe)
 
 - VirusTotal – URL, domain, and file reputation analysis
 - WHOIS Lookup – Domain registration and age analysis
-- MXToolbox – DNS lookups and additional header validation
 
 ## Email Summary
 - **From:** "Mr. James Jackson" <info@mutawamarine.com>  
